@@ -20,6 +20,8 @@ public class Kalkulator {
         return this.a * this.b;
 
     }
+
+
     public double podeli () {
         return this.a / this.b;
     }

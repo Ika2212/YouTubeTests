@@ -15,6 +15,7 @@ class KalkulatorTest {
 
     }
 
+
     @org.junit.jupiter.api.Test
     void saberi() {
         Kalkulator k1 = new Kalkulator (10.0,  5.0);
@@ -26,6 +27,7 @@ class KalkulatorTest {
         Kalkulator k1 = new Kalkulator (10.0,  5.0);
         Assertions.assertEquals(5.0, k1.oduzmi());
     }
+
     @org.junit.jupiter.api.Test
     void pomnozi() {
         Kalkulator k1 = new Kalkulator (10.0,  5.0);
