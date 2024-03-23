@@ -20,6 +20,9 @@ class KalkulatorTest {
     void saberi() {
         Kalkulator k1 = new Kalkulator (10.0,  5.0);
         Assertions.assertEquals(15.0, k1.saberi());
+
+
+
     }
 
     @org.junit.jupiter.api.Test
