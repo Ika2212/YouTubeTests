@@ -10,9 +10,10 @@ class KalkulatorTest {
     }
     @org.junit.jupiter.api.Test
     void getB() {
+
+
         Kalkulator k1 = new Kalkulator (10.0,  5.0);
         Assertions.assertEquals(5.0, k1.getB());
-
     }
 
 
